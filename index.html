@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Visualize Data with a Treemap Diagram</title>
+</head>
+
+<body>
+  <h1 id="title"></h1>
+  <h2 id="description"></h2>
+  <div class="datasets">
+    <label for="datasets">Data Sets</label>
+    <select name="options" id="dropdown">
+      <option value="kickstarter">Kickstarter Pledges</option>
+      <option value="movies">Movie Sales</option>
+      <option value="games">Video Game Sales</option>
+    </select>
+  </div>
+  <div id="tooltip" class="tooltip"></div>
+  <div class="container"></div>
+  <div class="coded-by">Coded by <a href="https://www.freecodecamp.org/fcc5b94da85-6e92-4331-8fbb-c5c610c6a41a" target="_blank">Pavel
+      P.</a> for freeCodeCamp</div>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
